@@ -37,6 +37,13 @@ namespace Assignment_LINQ_Session02_
             //    Console.WriteLine(item);
             //}
             #endregion
+            #region Question04
+            ////4. Check if ALL products in the "Seafood" category are in stock
+            /////Answer
+            //var result = ProductList.Where(p => p.Category == "Seafood")
+            //    .All(p => p.UnitsInStock > 0);
+            //    Console.WriteLine(result);//true
+            #endregion
         }
     }
 }
