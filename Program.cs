@@ -113,6 +113,13 @@ namespace Assignment_LINQ_Session02_
             //var result = ProductList.Sum(p => p.UnitsInStock);
             //    Console.WriteLine(result);
             #endregion
+            #region Question11
+            ////11. Find the CHEAPEST and MOST EXPENSIVE product prices
+            //var result = ProductList.Max(p => p.UnitPrice);
+            //    Console.WriteLine($"EXPENSIVE ={result}");
+            //var result2 = ProductList.Min(p => p.UnitPrice);
+            //    Console.WriteLine($"CHEAPEST={result2}");
+            #endregion
         }
     }
 }
