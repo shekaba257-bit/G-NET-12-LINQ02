@@ -15,6 +15,17 @@ namespace Assignment_LINQ_Session02_
             //    Console.WriteLine(item);
             //}
             #endregion
+            #region Question02
+            //2. show page 2 of products, with page size = 5
+            //int pageNumber = 2;
+            //int pageSize=5; 
+            //var result = ProductList.Skip((pageNumber - 1) * pageSize)
+            //    .Take(pageSize);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
         }
     }
 }
