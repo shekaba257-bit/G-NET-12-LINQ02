@@ -128,6 +128,17 @@ namespace Assignment_LINQ_Session02_
             //    Console.WriteLine(item);
             //}
             #endregion
+            #region Question13
+            ////13. find product IDs that are in setA but NOT in setB
+            //int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
+            //int[] setB = { 3, 6, 9, 12, 15, 13 };
+
+            //var IDs = setA.Except(setB);
+            //foreach (var item in IDs)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
         }
     }
 }
