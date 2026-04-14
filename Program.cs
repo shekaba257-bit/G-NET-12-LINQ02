@@ -66,6 +66,17 @@ namespace Assignment_LINQ_Session02_
             //    Console.WriteLine(item);
             //}
             #endregion
+            #region Question07
+            ////7. Group products by Category and project only product names per
+            //// group
+            ////Answer
+            //var result = ProductList.GroupBy(p => new { p.Category, p.ProductName });
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item.Key);
+            //}
+            #endregion
         }
     }
 }
