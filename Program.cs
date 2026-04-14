@@ -120,6 +120,14 @@ namespace Assignment_LINQ_Session02_
             //var result2 = ProductList.Min(p => p.UnitPrice);
             //    Console.WriteLine($"CHEAPEST={result2}");
             #endregion
+            #region Question12
+            ////12. Get a distinct list of all product categories
+            //var result = ProductList.Select(p=>p.Category).Distinct().ToList();
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
         }
     }
 }
