@@ -50,6 +50,22 @@ namespace Assignment_LINQ_Session02_
             //var result = ids.Contains(9);
             //Console.WriteLine(result);//true
             #endregion
+            #region Question06
+            ////6. Group all products by Category and print each group with its
+            ////product count.
+            ////Answer
+            //var result = ProductList.GroupBy(p => p.Category)
+            //    .Select(p => new
+            //    {
+            //        category = p.Key
+            //    ,
+            //        count = p.Count()
+            //    });
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
         }
     }
 }
