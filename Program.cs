@@ -78,16 +78,34 @@ namespace Assignment_LINQ_Session02_
             //}
             #endregion
             #region Question08
-           // //8. Find all categories that have MORE THAN 3 products
-           ////Answer
-           // var result = ProductList.GroupBy(p => p.Category)
-           //     .Where(p => p.Count() > 3)
-           //     .Select(p => p.Key);
-            
-           // foreach (var item in result)
-           // {
-           //     Console.WriteLine(item);
-           // }
+            // //8. Find all categories that have MORE THAN 3 products
+            ////Answer
+            // var result = ProductList.GroupBy(p => p.Category)
+            //     .Where(p => p.Count() > 3)
+            //     .Select(p => p.Key);
+
+            // foreach (var item in result)
+            // {
+            //     Console.WriteLine(item);
+            // }
+            #endregion
+            #region Question09
+            ////9. Using QUERY SYNTAX, group customers by Country, and for each
+            //// group select { Country, Count, TotalOrderValue }.
+            ////Answer
+            //var result = from C in CustomerList
+            //             group C by C.Country into g
+            //             select new
+            //             {
+            //                 Country = g.Key,
+            //                 Count = g.Count(),
+            //                 TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total))
+            //             };
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
             #endregion
         }
     }
