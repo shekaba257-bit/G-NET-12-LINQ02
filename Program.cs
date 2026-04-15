@@ -153,6 +153,19 @@ namespace Assignment_LINQ_Session02_
             //    Console.WriteLine(item);
             //}
             #endregion
+            #region Question15
+            ////15. Build a Dictionary<int, Product> keyed by ProductID. Then
+            ////retrieve and print the product with ID = 18.
+            ////Answer
+
+            //var result = ProductList.Where(p => p.ProductID == 18)
+            //    .ToDictionary(p => p.ProductID)
+            //    .Select(p => new { p.Key, p.Value });
+            //    foreach (var item in result) {
+            //    Console.WriteLine(item);
+            //}
+            #endregion 
+
         }
     }
 }
