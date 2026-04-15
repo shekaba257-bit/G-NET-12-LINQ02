@@ -1,4 +1,4 @@
-﻿    using static Assignment_LINQ_Session02_.Source;
+﻿using static Assignment_LINQ_Session02_.Source;
 namespace Assignment_LINQ_Session02_
 {
     internal class Program
@@ -135,6 +135,20 @@ namespace Assignment_LINQ_Session02_
 
             //var IDs = setA.Except(setB);
             //foreach (var item in IDs)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
+            #region Question14
+            ////14. Find countries that appear in list1 but NOT in list2
+            ////(case -insensitive).
+
+            ////Answer
+            //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //string[] list2 = { "france", "SPAIN", "Italy" };
+
+            //var result = list1.Except(list2);
+            //foreach(string item in result)
             //{
             //    Console.WriteLine(item);
             //}
