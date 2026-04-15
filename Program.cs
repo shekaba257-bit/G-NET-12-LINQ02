@@ -204,7 +204,7 @@ namespace Assignment_LINQ_Session02_
             //    Console.WriteLine(x); 
             //}
             #endregion
-              #region Question20
+            #region Question20
             ////20. Concatenate the first 3 product names with the first 3
             ////customer company names into a single sequence.
             ////Answer
@@ -214,6 +214,20 @@ namespace Assignment_LINQ_Session02_
             //{
             //    Console.WriteLine(item);
             //}
+            #endregion
+            #region Question21
+            ////21. Pair each product with a customer (by position) and produce
+            //// a string "ProductName sold to CompanyName".
+            ////Answer
+            //        var result = ProductList .Zip(CustomerList,
+            //    (p, c) => $"{p.ProductName} sold to {c.CompanyName}")
+            //.ToList();
+
+            //        foreach (var item in result)
+            //        {
+            //            Console.WriteLine(item);
+            //        }
+
             #endregion
         }
     }
