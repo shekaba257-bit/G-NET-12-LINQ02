@@ -204,7 +204,17 @@ namespace Assignment_LINQ_Session02_
             //    Console.WriteLine(x); 
             //}
             #endregion
-
+              #region Question20
+            ////20. Concatenate the first 3 product names with the first 3
+            ////customer company names into a single sequence.
+            ////Answer
+            //var result = ProductList.Select(p => p.ProductName)
+            //    .Take(3).Concat(CustomerList.Select(c => c.CompanyName).Take(3));
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
         }
     }
 }
