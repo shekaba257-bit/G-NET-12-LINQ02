@@ -172,6 +172,15 @@ namespace Assignment_LINQ_Session02_
             //    .First();
             //Console.WriteLine(result);
             #endregion
+            #region Question17
+            ////17. Try to get the first product with a price > $500. it returns null 
+            //// instead of throwing.
+
+            ////Answer
+            //var result = ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+            //Console.WriteLine(result);
+
+            #endregion
 
         }
     }
