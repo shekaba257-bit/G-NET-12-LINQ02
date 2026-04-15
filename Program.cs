@@ -182,6 +182,18 @@ namespace Assignment_LINQ_Session02_
 
             #endregion
 
-        }
+            #region Question18
+            ////18. Generate a multiplication table row for 7
+            //// Answer
+            //var Result = Enumerable.Range(1, 10)
+            //                .Select(i => $"7*{i}={i * 7}");
+            //foreach (var i in Result)
+            //{
+
+            //    Console.WriteLine(i);
+            //}
+            #endregion
+
     }
+}
 }
