@@ -164,7 +164,14 @@ namespace Assignment_LINQ_Session02_
             //    foreach (var item in result) {
             //    Console.WriteLine(item);
             //}
-            #endregion 
+            #endregion
+            #region Question16
+            ////16. Get the first product whose price is greater than $50.
+            ////Answer
+            //var result = ProductList.Where(p => p.UnitPrice > 50)
+            //    .First();
+            //Console.WriteLine(result);
+            #endregion
 
         }
     }
